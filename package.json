@@ -1,0 +1,6 @@
+{
+    "description":"Arduino Framework (STM8S Core)",
+    "name":"framework-N7",
+    "url":"https://github.com/tenbaht/sduino",
+    "version":"1.0.0"
+}
