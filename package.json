@@ -1,6 +1,6 @@
 {
-    "description":"Arduino STM8S Core",
     "name":"A02",
+    "description":"STM8S Core Arduino Framework",
     "url":"https://github.com/OS-Q/A02",
     "version":"0.5.0"
 }
