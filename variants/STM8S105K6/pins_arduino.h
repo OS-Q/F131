@@ -67,9 +67,9 @@ enum portpin {
 
 
 // PWM on pins 3-6, 8-10, 14
- #define digitalPinHasPWM(p)	( ( (p)>=3 & (p)<=10 & (p)!=7 ) \
- 				| (p)==14 \
- )
+#define digitalPinHasPWM(p)	( ( (p)>=3 & (p)<=10 & (p)!=7 ) \
+		| (p)==14 \
+)
 
 // TODO: find a way to use pin 10 (PC4) as software controlled SS
 #define PIN_SPI_SS    (PE5)	// 24

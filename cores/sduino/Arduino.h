@@ -1,22 +1,3 @@
-/*
-  Arduino.h - Main include file for the Arduino SDK
-  Copyright (c) 2005-2013 Arduino Team.  All right reserved.
-
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General Public
-  License along with this library; if not, write to the Free Software
-  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-
 #ifndef Arduino_h
 #define Arduino_h
 
@@ -94,7 +75,7 @@ void yield(void);
   #define INTERNAL INTERNAL1V1
   #define INTERNAL2V56 9
   #define INTERNAL2V56_EXTCAP 13
-#else  
+#else
 #if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega1284__) || defined(__AVR_ATmega1284P__) || defined(__AVR_ATmega644__) || defined(__AVR_ATmega644A__) || defined(__AVR_ATmega644P__) || defined(__AVR_ATmega644PA__)
 #define INTERNAL1V1 2
 #define INTERNAL2V56 3
@@ -224,7 +205,7 @@ void alternateFunction(uint8_t val);
 
 // Get the bit location within the hardware port of the given virtual pin.
 // This comes from the pins_*.c file for the active board configuration.
-// 
+//
 #define digitalPinToPort(P) ( digital_pin_to_port_PGM[(P)] )
 #define digitalPinToBitMask(P) ( digital_pin_to_bit_mask_PGM[(P)] )
 #define digitalPinToTimer(P) ( digital_pin_to_timer_PGM[(P)] )
