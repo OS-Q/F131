@@ -1,6 +1,6 @@
 {
     "name":"A14",
-    "description":"Arduino Framework STM8S Core",
+    "description":"Arduino STM8S Core",
     "url":"https://github.com/OS-Q/A14",
-    "version":"0.5.1"
+    "version":"1.0.0"
 }
