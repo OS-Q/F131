@@ -25,25 +25,25 @@ stm8sblue.upload.speed=1
 
 ##############################################################
 
-stm8smini.name=STM8S003F3
+STM8S003.name=STM8S003F3
 
-stm8smini.upload.tool=stm8flash
-stm8smini.upload.protocol=stlinkv2
-stm8smini.upload.mcu=stm8s003?3
-stm8smini.upload.maximum_size=8192
-stm8smini.upload.maximum_data_size=1024
+STM8S003.upload.tool=stm8flash
+STM8S003.upload.protocol=stlinkv2
+STM8S003.upload.mcu=stm8s003?3
+STM8S003.upload.maximum_size=8192
+STM8S003.upload.maximum_data_size=1024
 
-stm8smini.bootloader.tool=stm8flash
+STM8S003.bootloader.tool=stm8flash
 
-stm8smini.build.mcu=STM8S003
-stm8smini.build.f_cpu=16000000L
-stm8smini.build.board=STM8S_MINI
-stm8smini.build.core=sduino
-stm8smini.build.variant=STM8S003F3
+STM8S003.build.mcu=STM8S003
+STM8S003.build.f_cpu=16000000L
+STM8S003.build.board=B14A
+STM8S003.build.core=sduino
+STM8S003.build.variant=STM8S003
 
 # meaningless variables just to keep the makefile happy
 
-stm8smini.upload.speed=1
+STM8S003.upload.speed=1
 
 
 ##############################################################
