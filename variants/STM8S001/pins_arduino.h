@@ -61,10 +61,10 @@ static const uint8_t PROGMEM analogInputToDigitalPinMap[5]={6,11,12,14,15};
 
 #ifdef SUPPORT_ALTERNATE_MAPPINGS
  // using alternate functions adds 3 more PWM pins, total of 7 PWM pins
- #define digitalPinHasPWM(p)	( (p)==2 | ((p)>=5&(p)<=9) | (p)==12 )
+#define digitalPinHasPWM(p)	( (p)==2 | ((p)>=5&(p)<=9) | (p)==12 )
 #else
  // standard case: only 4 regular PWM pins
- #define digitalPinHasPWM(p)	( (p)==2 | (p)==5 | (p)==6 | (p)==12 )
+#define digitalPinHasPWM(p)	( (p)==2 | (p)==5 | (p)==6 | (p)==12 )
 #endif
 
 #define PIN_SPI_SS    (PA3)	// 2
@@ -79,10 +79,10 @@ static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK  = PIN_SPI_SCK;
 */
-#define SS	PIN_SPI_SS
+#define SS		PIN_SPI_SS
 #define	MOSI	PIN_SPI_MOSI
 #define	MISO	PIN_SPI_MISO
-#define	SCK	PIN_SPI_SCK
+#define	SCK		PIN_SPI_SCK
 
 #define PIN_WIRE_SDA        (PB5)	// 3
 #define PIN_WIRE_SCL        (PB4)	// 4
@@ -95,16 +95,16 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define	SCL	PIN_WIRE_SCL
 
 #define PIN_LED_BUILTIN (PB5)	// sduino: pin for the buildin LED, pin 3
-#define PIN_TX	(PD5)		// sduino: pin for TX line
-#define PIN_RX	(PD6)		// sduino: pin for RX line
+#define PIN_TX			(PD5)		// sduino: pin for TX line
+#define PIN_RX			(PD6)		// sduino: pin for RX line
 
-#define LED_BUILTIN (PB5)	// pin for the buildin LED, pin 3
+#define LED_BUILTIN 	(PB5)	// pin for the buildin LED, pin 3
 
-#define PIN_A0   (PC4)		//  6, Ain2
-#define PIN_A1   (PD2)		// 11, Ain3
-#define PIN_A2   (PD3)		// 12, Ain4
-#define PIN_A3   (PD5)		// 14, Ain5
-#define PIN_A4   (PD6)		// 15, Ain6
+#define PIN_A0   		(PC4)		//  6, Ain2
+#define PIN_A1   		(PD2)		// 11, Ain3
+#define PIN_A2   		(PD3)		// 12, Ain4
+#define PIN_A3   		(PD5)		// 14, Ain5
+#define PIN_A4   		(PD6)		// 15, Ain6
 
 /* SDCC workaround
 static const uint8_t A0 = PIN_A0;
