@@ -6,7 +6,7 @@ def after_build(source, target, env):
 	isExists=os.path.exists('build')
 	if not isExists:
 		os.mkdir('build')
-	shutil.copy(firmware_source, 'build/internal_libs_STM8S003.ihx')
+	shutil.copy(firmware_source, 'build/internal_libs_B.ihx')
 
 env.AddPostAction("buildprog", after_build)
 
