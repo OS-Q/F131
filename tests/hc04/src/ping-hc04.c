@@ -2,8 +2,8 @@
 
 // this constant won't change.  It's the pin number
 // of the sensor's output:
-const int trigPin = PA2;
-const int echoPin = PA1;
+const int trigPin = PB4;
+const int echoPin = PB5;
 
 long microsecondsToInches(long microseconds);
 long microsecondsToCentimeters(long microseconds);
