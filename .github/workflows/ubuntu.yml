@@ -10,7 +10,6 @@ jobs:
       matrix:
         python-version: [3.7]
         examples:
-          - "tests/fade-pins"
           - "tests/internal-libs"
           - "tests/hc04"
 
