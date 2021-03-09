@@ -22,8 +22,6 @@ jobs:
         examples:
           - "tests/libs"
           - "tests/hc04"
-          - "tests/fade-pins"
-
 
     steps:
       - uses: actions/checkout@v2

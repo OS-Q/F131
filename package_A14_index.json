@@ -10,7 +10,7 @@
             },
             "platforms" : [
                 {
-                    "name": "STM8 core",
+                    "name": "STM8S core",
                     "architecture": "stm8",
                     "version": "0.5",
                     "category": "Contributed",
