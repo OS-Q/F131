@@ -10,6 +10,6 @@
 
 ### [工程描述](https://github.com/OS-Q/A14/wiki)
 
-[A14](https://github.com/OS-Q/A14) 用于支持 [P14](https://github.com/OS-Q/P14)
+[A14](https://github.com/OS-Q/A14) 基于[sduino](https://github.com/tenbaht/sduino) 资源用于扩展 [P14](https://github.com/OS-Q/P14) 框架
 
 ### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)

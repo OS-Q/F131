@@ -43,23 +43,23 @@ B14B.upload.speed=1
 
 ##############################################################
 
-stm8sblue.name=OSQ B14C (STM8S103F3)
+B14C.name=OSQ B14C (STM8S103F3)
 
-stm8sblue.upload.tool=stm8flash
-stm8sblue.upload.protocol=stlinkv2
-stm8sblue.upload.mcu=stm8s103?3
-stm8sblue.upload.maximum_size=8192
-stm8sblue.upload.maximum_data_size=1024
+B14C.upload.tool=stm8flash
+B14C.upload.protocol=stlinkv2
+B14C.upload.mcu=stm8s103?3
+B14C.upload.maximum_size=8192
+B14C.upload.maximum_data_size=1024
 
-stm8sblue.bootloader.tool=stm8flash
+B14C.bootloader.tool=stm8flash
 
-stm8sblue.build.mcu=STM8S103
-stm8sblue.build.f_cpu=16000000L
-stm8sblue.build.board=B14C
-stm8sblue.build.core=sduino
-stm8sblue.build.variant=B14C
+B14C.build.mcu=STM8S103
+B14C.build.f_cpu=16000000L
+B14C.build.board=B14C
+B14C.build.core=sduino
+B14C.build.variant=B14C
 
-stm8sblue.upload.speed=1
+B14C.upload.speed=1
 
 ##############################################################
 
