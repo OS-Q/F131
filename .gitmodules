@@ -1,3 +1,6 @@
 [submodule "variants"]
 	path = variants
 	url = https://github.com/OS-Q/B14.git
+[submodule "STM8S_StdPeriph_Driver"]
+	path = STM8S_StdPeriph_Driver
+	url = https://github.com/OS-Q/STM8S_StdPeriph_Driver.git
