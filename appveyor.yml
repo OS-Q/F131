@@ -1,0 +1,16 @@
+build: off
+environment:
+
+  matrix:
+    - PLATFORMIO_PROJECT_DIR: "tests/libs"
+    - PLATFORMIO_PROJECT_DIR: "tests/hc04"
+
+install:
+  - cmd: git submodule update --init --recursive
+  - cmd: SET PATH=C:\Python36\Scripts;%PATH%
+  - cmd: pip3 install -U https://github.com/OS-Q/S03/archive/master.zip
+  - cmd: pio platform install https://github.com/OS-Q/P14.git
+
+test_script:
+  - cmd: pio run -d %PLATFORMIO_PROJECT_DIR%
+
