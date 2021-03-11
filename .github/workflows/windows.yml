@@ -44,5 +44,5 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: windows-build-A14
+          name: windows-build-A14A
           path: ${{ matrix.examples }}/build
