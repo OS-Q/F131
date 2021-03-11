@@ -7,10 +7,10 @@
 [![Build Status](https://github.com/OS-Q/A14A/workflows/windows/badge.svg)](https://github.com/OS-Q/A14A/actions/workflows/windows.yml)
 [![Build Status](https://github.com/OS-Q/A14A/workflows/PlatformIO/badge.svg)](https://github.com/OS-Q/A14A/actions/workflows/platformio.yml)
 [![Build Status](https://travis-ci.com/OS-Q/A14A.svg?branch=master)](https://travis-ci.com/OS-Q/A14A)
-[![Build status](https://ci.appveyor.com/api/projects/status/3o5quwj5fp428ho4?svg=true)](https://ci.appveyor.com/project/Qitas/a14)
+[![Build status](https://ci.appveyor.com/api/projects/status/i0jk86h7c9e0vsrg?svg=true)](https://ci.appveyor.com/project/Qitas/a14a)
 
 ### [简介](https://github.com/OS-Q/A14A/wiki)
 
-[A14A](https://github.com/OS-Q/A14A) 扩展 [P14](https://github.com/OS-Q/P14) Arduino 开发框架
+[A14A](https://github.com/OS-Q/A14A) 扩展 [P14](https://github.com/OS-Q/P14) Arduino框架
 
 ### [源圈 OS-Q (Open Source & QA) ](http://www.OS-Q.com)
