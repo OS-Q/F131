@@ -1,4 +1,4 @@
-name: ubuntu
+name: PlatformIO
 
 on:
   push:
@@ -14,15 +14,16 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.7]
-        examples:
+        example:
           - "tests/libs"
           - "tests/hc04"
 
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -31,18 +32,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: Install
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -U https://github.com/OS-Q/S03/archive/master.zip
-          qio platform install https://github.com/OS-Q/P14.git
-
-      - name: Build
+          pip install -U https://github.com/platformio/platformio/archive/develop.zip
+          platformio platform install https://github.com/OS-Q/P14.git
+      - name: Platformio Build
         run: |
-          qio run -d ${{ matrix.examples }}
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: ubuntu-build-A14A
-          path: ${{ matrix.examples }}/build
+          platformio run -d ${{ matrix.example }}
