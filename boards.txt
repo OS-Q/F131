@@ -3,177 +3,203 @@
 menu.upload_method=Upload method
 ##############################################################
 
-B14A.name=OSQ B14A (STM8S001J3)
+STM8S001J3.name=OSQ B14A (STM8S001J3)
 
-B14A.upload.tool=stm8flash
-B14A.upload.protocol=stlinkv2
-B14A.upload.mcu=stm8s001?3
-B14A.upload.maximum_size=8192
-B14A.upload.maximum_data_size=1024
+STM8S001J3.upload.tool=stm8flash
+STM8S001J3.upload.protocol=stlinkv2
+STM8S001J3.upload.mcu=stm8s001?3
+STM8S001J3.upload.maximum_size=8192
+STM8S001J3.upload.maximum_data_size=1024
 
-B14A.bootloader.tool=stm8flash
+STM8S001J3.bootloader.tool=stm8flash
 
-B14A.build.mcu=STM8S001
-B14A.build.f_cpu=16000000L
-B14A.build.board=B14A
-B14A.build.core=sduino
-B14A.build.variant=B14A
+STM8S001J3.build.mcu=STM8S001
+STM8S001J3.build.f_cpu=16000000L
+STM8S001J3.build.board=STM8S001J3
+STM8S001J3.build.core=sduino
+STM8S001J3.build.variant=STM8S001J3
 
-B14A.upload.speed=1
-
-##############################################################
-
-B14B.name=OSQ B14B (STM8S003F3)
-
-B14B.upload.tool=stm8flash
-B14B.upload.protocol=stlinkv2
-B14B.upload.mcu=stm8s003?3
-B14B.upload.maximum_size=8192
-B14B.upload.maximum_data_size=1024
-
-B14B.bootloader.tool=stm8flash
-
-B14B.build.mcu=STM8S003
-B14B.build.f_cpu=16000000L
-B14B.build.board=B14B
-B14B.build.core=sduino
-B14B.build.variant=B14B
-
-B14B.upload.speed=1
+STM8S001J3.upload.speed=1
 
 ##############################################################
 
-B14C.name=OSQ B14C (STM8S103F3)
+STM8S003F3.name=OSQ B14B (STM8S003F3)
 
-B14C.upload.tool=stm8flash
-B14C.upload.protocol=stlinkv2
-B14C.upload.mcu=stm8s103?3
-B14C.upload.maximum_size=8192
-B14C.upload.maximum_data_size=1024
+STM8S003F3.upload.tool=stm8flash
+STM8S003F3.upload.protocol=stlinkv2
+STM8S003F3.upload.mcu=stm8s003?3
+STM8S003F3.upload.maximum_size=8192
+STM8S003F3.upload.maximum_data_size=1024
 
-B14C.bootloader.tool=stm8flash
+STM8S003F3.bootloader.tool=stm8flash
 
-B14C.build.mcu=STM8S103
-B14C.build.f_cpu=16000000L
-B14C.build.board=B14C
-B14C.build.core=sduino
-B14C.build.variant=B14C
+STM8S003F3.build.mcu=STM8S003
+STM8S003F3.build.f_cpu=16000000L
+STM8S003F3.build.board=STM8S003F3
+STM8S003F3.build.core=sduino
+STM8S003F3.build.variant=STM8S003F3
 
-B14C.upload.speed=1
+STM8S003F3.upload.speed=1
 
 ##############################################################
 
-B14D.name=OSQ B14D (STM8S105K4T6)
+STM8S103F3.name=OSQ B14C (STM8S103F3)
+
+STM8S103F3.upload.tool=stm8flash
+STM8S103F3.upload.protocol=stlinkv2
+STM8S103F3.upload.mcu=stm8s103?3
+STM8S103F3.upload.maximum_size=8192
+STM8S103F3.upload.maximum_data_size=1024
+
+STM8S103F3.bootloader.tool=stm8flash
+
+STM8S103F3.build.mcu=STM8S103
+STM8S103F3.build.f_cpu=16000000L
+STM8S103F3.build.board=STM8S103F3
+STM8S103F3.build.core=sduino
+STM8S103F3.build.variant=STM8S103F3
+
+STM8S103F3.upload.speed=1
+
+##############################################################
+
+STM8S105K4.name=OSQ B14D (STM8S105K4T6)
 
 # First upload method is the default method
-B14D.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
-B14D.menu.upload_method.stm8galMethod.upload.tool=stm8gal
-B14D.menu.upload_method.stm8galMethod.upload.protocol=serial
+STM8S105K4.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+STM8S105K4.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+STM8S105K4.menu.upload_method.stm8galMethod.upload.protocol=serial
 
-B14D.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
-B14D.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
-B14D.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
-B14D.menu.upload_method.stm8flashMethod.upload.mcu=stm8s105?4
+STM8S105K4.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
+STM8S105K4.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+STM8S105K4.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+STM8S105K4.menu.upload_method.stm8flashMethod.upload.mcu=stm8s105?4
 
 # a global definition of upload speed is required to keep the makefile happy
-B14D.upload.speed=230400
-B14D.upload.maximum_size=16384
-B14D.upload.maximum_data_size=2048
+STM8S105K4.upload.speed=230400
+STM8S105K4.upload.maximum_size=16384
+STM8S105K4.upload.maximum_data_size=2048
 
-B14D.bootloader.tool=stm8flash
+STM8S105K4.bootloader.tool=stm8flash
 
-B14D.build.mcu=STM8S105
-B14D.build.f_cpu=16000000L
-B14D.build.board=B14D
-B14D.build.core=sduino
-B14D.build.variant=B14D
-
-
-##############################################################
-
-B14E.name=OSQ B14E (STM8S105K6)
-
-# First upload method is the default method
-B14E.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
-B14E.menu.upload_method.stm8galMethod.upload.tool=stm8gal
-B14E.menu.upload_method.stm8galMethod.upload.protocol=serial
-
-B14E.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
-B14E.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
-B14E.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
-B14E.menu.upload_method.stm8flashMethod.upload.mcu=stm8s105?6
-
-
-# a global definition of upload speed is required to keep the makefile happy
-B14E.upload.speed=230400
-B14E.upload.maximum_size=32768
-B14E.upload.maximum_data_size=2048
-
-B14E.bootloader.tool=stm8flash
-
-B14E.build.mcu=STM8S105
-B14E.build.f_cpu=16000000L
-B14E.build.board=B14E
-B14E.build.core=sduino
-B14E.build.variant=B14E
+STM8S105K4.build.mcu=STM8S105
+STM8S105K4.build.f_cpu=16000000L
+STM8S105K4.build.board=STM8S105K4
+STM8S105K4.build.core=sduino
+STM8S105K4.build.variant=STM8S105K4
 
 
 ##############################################################
 
-B14F.name=OSQ B14F (STM8S105C6)
+STM8S105K6.name=OSQ B14E (STM8S105K6)
 
 # First upload method is the default method
-B14F.menu.upload_method.stm8flash_onboardMethod=Onboard ST-Link/V1 programmer
-B14F.menu.upload_method.stm8flash_onboardMethod.upload.tool=stm8flash
-B14F.menu.upload_method.stm8flash_onboardMethod.upload.protocol=stlink
+STM8S105K6.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+STM8S105K6.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+STM8S105K6.menu.upload_method.stm8galMethod.upload.protocol=serial
 
-B14F.menu.upload_method.stm8flashMethod=external ST-Link/V2 programmer
-B14F.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
-B14F.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
-
-B14F.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
-B14F.menu.upload_method.stm8galMethod.upload.tool=stm8gal
-B14F.menu.upload_method.stm8galMethod.upload.protocol=serial
-
-# a global definition of upload speed is required to keep the makefile happy
-B14F.upload.speed=230400
-B14F.upload.mcu=stm8s105?6
-B14F.upload.maximum_size=32768
-B14F.upload.maximum_data_size=2048
-
-B14F.bootloader.tool=stm8flash
-
-B14F.build.mcu=STM8S105
-B14F.build.f_cpu=16000000L
-B14F.build.board=B14F
-B14F.build.core=sduino
-B14F.build.variant=B14F
-
-
-##############################################################
-
-B14H.name=OSQ B14H (STM8S208MBT6B)
-
-# First upload method is the default method
-B14H.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
-B14H.menu.upload_method.stm8galMethod.upload.tool=stm8gal
-B14H.menu.upload_method.stm8galMethod.upload.protocol=serial
-
-B14H.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
-B14H.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
-B14H.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
-B14H.menu.upload_method.stm8flashMethod.upload.mcu=stm8s208?b
+STM8S105K6.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
+STM8S105K6.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+STM8S105K6.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+STM8S105K6.menu.upload_method.stm8flashMethod.upload.mcu=stm8s105?6
 
 
 # a global definition of upload speed is required to keep the makefile happy
-B14H.upload.speed=230400
-B14H.upload.maximum_size=131072
-B14H.upload.maximum_data_size=6144
+STM8S105K6.upload.speed=230400
+STM8S105K6.upload.maximum_size=32768
+STM8S105K6.upload.maximum_data_size=2048
 
-B14H.bootloader.tool=stm8flash
+STM8S105K6.bootloader.tool=stm8flash
 
-B14H.build.mcu=STM8S208
-B14H.build.f_cpu=16000000L
-B14H.build.board=B14H
-B14H.build.core=sduino
-B14H.build.variant=B14H
+STM8S105K6.build.mcu=STM8S105
+STM8S105K6.build.f_cpu=16000000L
+STM8S105K6.build.board=STM8S105K6
+STM8S105K6.build.core=sduino
+STM8S105K6.build.variant=STM8S105K6
+
+
+##############################################################
+
+STM8S105C6.name=OSQ B14F (STM8S105C6)
+
+# First upload method is the default method
+STM8S105C6.menu.upload_method.stm8flash_onboardMethod=Onboard ST-Link/V1 programmer
+STM8S105C6.menu.upload_method.stm8flash_onboardMethod.upload.tool=stm8flash
+STM8S105C6.menu.upload_method.stm8flash_onboardMethod.upload.protocol=stlink
+
+STM8S105C6.menu.upload_method.stm8flashMethod=external ST-Link/V2 programmer
+STM8S105C6.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+STM8S105C6.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+
+STM8S105C6.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+STM8S105C6.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+STM8S105C6.menu.upload_method.stm8galMethod.upload.protocol=serial
+
+# a global definition of upload speed is required to keep the makefile happy
+STM8S105C6.upload.speed=230400
+STM8S105C6.upload.mcu=stm8s105?6
+STM8S105C6.upload.maximum_size=32768
+STM8S105C6.upload.maximum_data_size=2048
+
+STM8S105C6.bootloader.tool=stm8flash
+
+STM8S105C6.build.mcu=STM8S105
+STM8S105C6.build.f_cpu=16000000L
+STM8S105C6.build.board=STM8S105C6
+STM8S105C6.build.core=sduino
+STM8S105C6.build.variant=STM8S105C6
+
+
+##############################################################
+
+STM8S207K8.name=OSQ B14G (STM8S207K8)
+
+# First upload method is the default method
+STM8S207K8.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+STM8S207K8.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+STM8S207K8.menu.upload_method.stm8galMethod.upload.protocol=serial
+
+STM8S207K8.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
+STM8S207K8.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+STM8S207K8.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+STM8S207K8.menu.upload_method.stm8flashMethod.upload.mcu=stm8s207?8
+
+
+STM8S207K8.upload.speed=230400
+STM8S207K8.upload.maximum_size=65532
+STM8S207K8.upload.maximum_data_size=2048
+STM8S207K8.bootloader.tool=stm8flash
+
+STM8S207K8.build.mcu=STM8S207
+STM8S207K8.build.f_cpu=16000000L
+STM8S207K8.build.board=STM8S207K8
+STM8S207K8.build.core=sduino
+STM8S207K8.build.variant=STM8S207K8
+
+##############################################################
+
+STM8S208MB.name=OSQ B14H (STM8S208MBT6B)
+
+# First upload method is the default method
+STM8S208MB.menu.upload_method.stm8galMethod=Serial (using stm8gal with builtin bootloader)
+STM8S208MB.menu.upload_method.stm8galMethod.upload.tool=stm8gal
+STM8S208MB.menu.upload_method.stm8galMethod.upload.protocol=serial
+
+STM8S208MB.menu.upload_method.stm8flashMethod=ST-Link/V2 (using stm8flash)
+STM8S208MB.menu.upload_method.stm8flashMethod.upload.tool=stm8flash
+STM8S208MB.menu.upload_method.stm8flashMethod.upload.protocol=stlinkv2
+STM8S208MB.menu.upload_method.stm8flashMethod.upload.mcu=stm8s208?b
+
+
+# a global definition of upload speed is required to keep the makefile happy
+STM8S208MB.upload.speed=230400
+STM8S208MB.upload.maximum_size=131072
+STM8S208MB.upload.maximum_data_size=6144
+
+STM8S208MB.bootloader.tool=stm8flash
+
+STM8S208MB.build.mcu=STM8S208
+STM8S208MB.build.f_cpu=16000000L
+STM8S208MB.build.board=STM8S208MB
+STM8S208MB.build.core=sduino
+STM8S208MB.build.variant=STM8S208MB
