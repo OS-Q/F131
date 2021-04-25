@@ -1,0 +1,16 @@
+*.db
+*.pyc
+__pycache__/
+*.vscode/
+*.pio/
+*.rst
+**/*.txt
+**/*/README*
+**/*/*.yml
+**/*/*.md
+LICENSE*
+*.png
+*.jpg
+**/CONTR*
+**/CHANGE*
+!.github/*

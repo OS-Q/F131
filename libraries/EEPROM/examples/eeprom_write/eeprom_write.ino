@@ -1,3 +1,13 @@
+/*
+ * EEPROM Write
+ *
+ * Stores values read from analog input 0 into the EEPROM.
+ * These values will stay in the EEPROM when the board is
+ * turned off and may be retrieved later by another sketch.
+ *
+ * Modified to C for use with SDuino by Michael Mayer 2018
+ */
+
 #include <EEPROM.h>
 
 /** the current address in the EEPROM (i.e. which byte we're going to write to next) **/
@@ -23,6 +33,18 @@ void loop() {
   ***/
 
   EEPROM_write(addr, val);
+
+  /***
+    Advance to the next address, when at the end restart at the beginning.
+
+    Larger AVR processors have larger EEPROM sizes, E.g:
+    - Arduno Duemilanove: 512b EEPROM storage.
+    - Arduino Uno:        1kb EEPROM storage.
+    - Arduino Mega:       4kb EEPROM storage.
+
+    Rather than hard-coding the length, you should use the pre-provided length function.
+    This will make your code portable to all AVR processors.
+  ***/
   addr = addr + 1;
   if (addr == EEPROM_length()) {
     addr = 0;
@@ -34,5 +56,7 @@ void loop() {
 
     ++addr &= EEPROM_length() - 1;
   ***/
+
+
   delay(100);
 }

@@ -1,3 +1,13 @@
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
+
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ http://www.arduino.cc/en/Tutorial/Sweep
+ modified to C syntax on 30 Jan 2017 for use with the sdunio environment
+ by Michael Mayer
+*/
 
 #include <Servo.h>
 

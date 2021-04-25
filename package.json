@@ -1,6 +1,17 @@
 {
-    "name":"A14A",
-    "description":"Arduino STM8S Core",
-    "url":"https://github.com/tenbaht/sduino",
-    "version":"1.0.0"
+  "name": "A14",
+  "version": "0.50.210317",
+  "description": "An Arduino-like programming API for the STM8 microcontrollers",
+  "keywords": [
+    "framework",
+    "arduino",
+    "stmicroelectronics",
+    "stm8"
+  ],
+  "homepage": "https://tenbaht.github.io/sduino/",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenbaht/sduino"
+  }
 }
